@@ -12,6 +12,7 @@ class Crossword:
             self.size = int(input("\nEnter the square size of crossword: "))
             if self.size < 3:
                 print("Too small input. Enter another value.")
+                print("subramania is a mad fellow")
                 continue
             else:
                 for i in range(0, self.size):
