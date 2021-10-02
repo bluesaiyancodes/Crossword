@@ -105,3 +105,4 @@ crossword_obj.word_picker()
 crossword_obj.view_crossword()
 
 print("program executed succefully")
+print("exit")
