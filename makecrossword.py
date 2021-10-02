@@ -8,6 +8,7 @@ class Crossword:
 
     def __init__(self):
         print("### Welcome to the crossword puzzle maker ###")
+        print("started....")
         while True:
             self.size = int(input("\nEnter the square size of crossword: "))
             if self.size < 3:
@@ -20,6 +21,7 @@ class Crossword:
                     for j in range(0, self.size):
                         self.crossword_list[i].append(0)
                 break
+               
 
     def word_picker(self):
         query = "select sl,word from dictionary;"
