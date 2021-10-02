@@ -58,6 +58,7 @@ class Crossword:
         for i in data:
             words.append([i[0], i[1]])
         return words, datacount
+        print("connected successfully")
 
     def word_placability(self, word, x, y, stat):
         if stat == "across":
