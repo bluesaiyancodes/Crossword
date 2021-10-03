@@ -107,7 +107,7 @@ class Crossword:
 crossword_obj = Crossword()
 crossword_obj.word_picker()
 crossword_obj.view_crossword()
-
+print("click to go...")
 print("program executed succefully")
 print("exit")
 x=10
