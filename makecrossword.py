@@ -110,3 +110,6 @@ crossword_obj.view_crossword()
 
 print("program executed succefully")
 print("exit")
+x=10
+y=20
+print(x+y)
