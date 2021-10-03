@@ -7,6 +7,7 @@ class Crossword:
     crossword_list = []
 
     def __init__(self):
+        print("program started")
         print("### Welcome to the crossword puzzle maker ###")
         while True:
             self.size = int(input("\nEnter the square size of crossword: "))
